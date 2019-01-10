@@ -1,0 +1,46 @@
+<h1> Multitab works! </h1>
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" href="#">Accounts</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Summary</a>
+    </li>
+</ul>
+<div>
+    <ag-grid-angular class="ag-theme-bootstrap firstGrid" 
+        [rowData]="rowData" [columnDefs]="columnDefs">
+    </ag-grid-angular>
+</div>
+<div class="row">
+    <div class="col-8">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Accounts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Details</a>
+            </li>
+        </ul>
+        <div>
+            <ag-grid-angular class="ag-theme-bootstrap secondGrid" 
+                [rowData]="rowData" [columnDefs]="columnDefs">
+            </ag-grid-angular>
+        </div>
+    </div>
+    <div class="col">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Accounts</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Details</a>
+            </li>
+        </ul>
+        <div>
+            <ag-grid-angular class="ag-theme-bootstrap thirdGrid" 
+                [rowData]="rowData" [columnDefs]="columnDefs">
+            </ag-grid-angular>
+        </div>
+    </div>
+</div>

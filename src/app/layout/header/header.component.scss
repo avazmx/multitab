@@ -1,0 +1,37 @@
+nav {
+    background-color: #351C15;
+    padding: 0.4rem 0.67rem;
+    display: flex;
+    img {
+        height: 2.15rem;
+        // margin: 0.15rem 0;
+    }
+    // span {
+    //     color: #FFF;
+    //     font-weight: 700;
+    //     font-size: 1.67rem;
+    // }
+    button {
+        color: #FFF;
+        font-weight: 600;
+        font-size: 1.45rem;
+        margin-left: 0.85rem;
+        transition: all .17s;
+        cursor: pointer;
+        &:hover {
+            color: #FFCC33;
+        }
+        &:focus {
+            outline: none !important;
+        }
+    }
+}
+
+.activeLink {
+    color: #FFCC33 !important;
+    border-bottom: 5px solid #FFCC33;
+    margin-bottom: -0.4rem;
+    &:focus {
+        outline: none !important;
+    }
+}
