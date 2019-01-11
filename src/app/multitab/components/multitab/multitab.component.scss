@@ -12,3 +12,25 @@
     height: 150px;
     width: 100%;
 }
+
+.nav-tabs {
+    .nav-item {
+        .active {
+            border-bottom: solid #1D79D1;
+        }
+        .disabled {
+            border-top: 1px solid #DDD;
+            border-left: 1px solid #DDD;
+            border-right: 1px solid #DDD;
+        }
+    }
+}
+
+.agGrid {
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+    // border-bottom: 1px solid #DDD;
+    // border-radius: 5px;
+    // padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}

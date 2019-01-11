@@ -7,10 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MultitabComponent implements OnInit {
 
-  columnDefs = [
-    { headerName: 'Make', field: 'make' },
-    { headerName: 'Model', field: 'model' },
-    { headerName: 'Price', field: 'price' }
+  columnDefsFirst = [
+    { headerName: 'Account', field: 'account' },
+    { headerName: 'Registration Date', field: 'regDate' },
+    { headerName: 'Status', field: 'status' }
+  ];
+
+  columnDefsSecond = [
+    { headerName: 'Name', field: 'name' },
+    { headerName: 'H/CH', field: 'hch' },
+    { headerName: 'A/C HN', field: 'achn' }
+  ];
+
+  columnDefsThird = [
+    { headerName: 'Age', field: 'age' },
+    { headerName: 'Date of birth', field: 'dateOfBirth' },
+    { headerName: 'Height', field: 'height' },
+    { headerName: 'Color', field: 'color' }
   ];
 
   rowData = [
